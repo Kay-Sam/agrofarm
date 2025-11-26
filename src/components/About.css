@@ -1,0 +1,19 @@
+.about{
+  padding:80px 24px;
+}
+
+.about-inner{
+  max-width:900px;
+  margin:0 auto;
+  background:linear-gradient(135deg, var(--card) 0%, rgba(255,255,255,0.04) 100%);
+  backdrop-filter:blur(10px);
+  border:1px solid rgba(255,255,255,0.1);
+  border-radius:16px;
+  padding:40px;
+}
+
+.about p{
+  font-size:1.05rem;
+  color:var(--muted);
+  line-height:1.8;
+}

@@ -1,0 +1,53 @@
+.testimonials{
+  padding:80px 24px;
+}
+
+.test-grid{ 
+  display:grid; 
+  gap:24px;
+}
+
+.test-card{ 
+  background:var(--card);
+  backdrop-filter:blur(10px);
+  border:1px solid rgba(255,255,255,0.1);
+  padding:20px; 
+  border-radius:16px; 
+  box-shadow:0 8px 32px rgba(0,0,0,0.1);
+  display:flex; 
+  gap:16px; 
+  align-items:flex-start;
+  transition:all 0.3s ease;
+}
+
+.test-card:hover{
+  border-color:rgba(16,185,129,0.3);
+  background:rgba(255,255,255,0.12);
+}
+
+.test-card img{ 
+  width:80px; 
+  height:80px; 
+  object-fit:cover; 
+  border-radius:12px;
+  flex-shrink:0;
+}
+
+.test-card blockquote{ 
+  margin:0; 
+  font-style:italic;
+  color:#e2e8f0;
+  font-size:0.95rem;
+  line-height:1.6;
+}
+
+.test-card figcaption{ 
+  margin-top:8px; 
+  color:var(--accent);
+  font-size:0.9rem;
+  font-weight:600;
+}
+
+@media (min-width:768px){
+  .test-grid{ grid-template-columns:repeat(2,1fr) }
+}
