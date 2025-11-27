@@ -51,7 +51,7 @@ export default function Cart({ onClose }) {
     const message = `Hi! I want to order: ${items}. Total: ${price}`
     
     window.open(
-      `https://wa.me/2341234567890?text=${encodeURIComponent(message)}`,
+      `https://wa.me/2347053088651?text=${encodeURIComponent(message)}`,
       '_blank'
     )
     showToast('Opening WhatsApp with your order...', 'success')
