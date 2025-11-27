@@ -56,7 +56,7 @@ export default function Contact(){
             <div className="info-card">
               <div className="info-icon"><i className="fa fa-map-marker"></i></div>
               <h3>Address</h3>
-              <p>123 Green Valley Road<br />Lagos, Nigeria 100001</p>
+              <p>Orita Odan Olodo<br />Ibadan, Nigeria 200111</p>
             </div>
 
             <div className="info-card">

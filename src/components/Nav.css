@@ -181,6 +181,13 @@
   padding-left: 26px;
 }
 
+.nav-links.mobile {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
 /* ============= MOBILE CART SECTION ============= */
 .mobile-cart-section {
   padding: 16px 24px;
@@ -237,7 +244,7 @@
     display: none;
   }
 
-    /* Hide desktop cart on mobile */
+    /* show desktop cart on mobile */
     .desktop-cart {
       display: flex;
     }
@@ -272,9 +279,7 @@
     font-size: 1.2rem;
   }
 
-  .brand-text {
-    display: none;
-  }
+
 
   .mobile-menu-overlay {
     top: 52px;
